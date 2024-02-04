@@ -5,7 +5,7 @@ h2{color:rgb(127, 126, 126); font-size: 23pt; font-family: 'Helvetica';}
 h3{color: rgb(175, 172, 198); font-size: 20pt; font-family: 'calibri'; text-decoration: underline;}
 p{color: rgb(76, 120, 133); font-family: Arial, Helvetica, sans-serif; font-size: 14pt;} 
 blockquote{color:rgb(7, 7, 71); font-family: 'Times New Roman', Times, serif; font-size: 12pt;}
+
 a:hover{text-decoration: bold; color: rgb(110, 6, 6)}
 a:active{text-decoration: italic; color:aqua}
 a:visited{text-decoration: underline; color:rgb(179, 127, 31)}
-a:link {text-decoration: overline}
