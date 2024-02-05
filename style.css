@@ -8,11 +8,7 @@ p{color: rgb(76, 120, 133); font-family: Arial, Helvetica, sans-serif; font-size
 blockquote{color: rgb(82, 46, 172); font-family: Arial;}
 
 a:active {
-    color:aqua
-}
-
-a:visited {
-    text-decoration: italic;
+    color:aqua;
 }
 
 a:hover {
@@ -23,8 +19,11 @@ a:hover {
 a:link {
     color:rgb(132, 139, 6) ;
     text-decoration: italic;
+    
 }
 
-
+a:visited {
+    color: red;
+}
 
 td, th, table{border:1px solid #150553;}
