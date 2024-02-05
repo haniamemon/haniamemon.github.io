@@ -12,7 +12,7 @@ a:active {
 }
 
 a:visited {
-    text-decoration: underline;
+    text-decoration: italic;
 }
 
 a:hover {
