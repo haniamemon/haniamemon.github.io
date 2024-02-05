@@ -17,12 +17,11 @@ a:hover {
 }
 
 a:link {
-    background:rgb(132, 139, 6) ;
+    color:rgb(132, 139, 6) ;
     text-decoration: italic;
 }
 
 a:visited {
-    background: rgb(139, 86, 6);
     text-decoration: underline;
 }
 
