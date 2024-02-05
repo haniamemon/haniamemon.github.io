@@ -10,5 +10,5 @@ a:hover{text-decoration: bold; color: rgb(132, 139, 6)}
 a:active{text-decoration: italic; color:aqua}
 a:visited{text-decoration: underline; color:rgb(179, 127, 31)}
 
-.links {background-color: navy; color:beige;}
-.desc {background-color: #0c4e21; color:aquamarine;}
+.links {background-color: rgb(223, 223, 255); color:rgb(4, 14, 129);}
+.desc {background-color: #c1d9f8; color:rgb(4, 14, 129);}
