@@ -12,13 +12,11 @@ a:active {
 }
 
 a:hover {
-    text-decoration: bold;
     color: rgb(30, 228, 12);
 }
 
 a:link {
     color:rgb(132, 139, 6) ;
-    text-decoration: italic;
 }
 
 a:visited {
