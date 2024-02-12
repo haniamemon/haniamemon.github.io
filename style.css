@@ -12,7 +12,7 @@ a:active {
 }
 
 a:hover {
-    color: rgb(30, 228, 12); background-color: beige;
+    background-color: lightblue;
 }
 
 a:link {
