@@ -20,7 +20,7 @@ a:link {
 }
 
 a:visited {
-    color: red;
+    color: rgb(0, 8, 255);
 }
 
 td, th, table{border:1px solid #150553;}
