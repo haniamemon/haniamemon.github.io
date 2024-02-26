@@ -40,10 +40,11 @@ td, th, table{border:1px solid #150553;}
 }
 
 .dropdown-content a {
-    color: #F9F0FE;
+    color: lightblue;
     display: block;
     font-size: 12px;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'arial';
+    text-decoration: dotted;
     
 }
 
@@ -62,12 +63,7 @@ nav{
     font-family: 'Serif';
 }
 
-.dropdown button{
-    border: none;
-    background: none;
-    color: lightblue;
-    font-weight: bold;
-}
+.dropdown button{color: lightblue; font-weight: bold; }
 
 .nav-item a{color: lightblue; font: 12px; text-decoration: none; font-weight: bold; margin: 0 50px;}
 
