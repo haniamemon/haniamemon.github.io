@@ -41,7 +41,7 @@ td, th, table{border:1px solid #150553;}
 
 .dropdown-content a {
     color: lightblue;
-    background:rgb(90, 73, 130)
+    background-color:rgb(90, 73, 130);
     display: block;
     font-size: 12px;
     font-family: 'arial';
