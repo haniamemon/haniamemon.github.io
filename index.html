@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css"> 
+  <script src="main.js" defer></script>
 
   <title>Hania Memon's Website</title>
 </head>
@@ -19,7 +20,8 @@
         var username = prompt("Hi there! What's your name?");
         
         // use an if else statement to see what the input was, determine output
-        if (username == null || username == "") {
+        if (username == null || username == "") 
+        {
          // for no input/error, no name is given
           document.getElementById("namegiven").innerHTML = "Hello! Nice to meet you!";
             
@@ -27,7 +29,10 @@
           // for name given, use in output
           document.getElementById("namegiven").innerHTML = "Hello " +username +"! Nice to meet you!";   
         }
-      }
+              } 
+
+        <img src="C:\Users\memon\Downloads\ITM 780 ALL ASSIGNMENTS\ITM780_L2\haniamemon.github.io\self image.png" alt="My Photo" id="myPhoto" class="clickable-image">
+        
     </script>
 
 
