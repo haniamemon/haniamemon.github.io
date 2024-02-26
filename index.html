@@ -12,7 +12,7 @@
   <p id="output"></p>
 
   <script>
-     alert("Hello, World!")
+     alert("Hello!")
     //make a function for when the user clicks the button
     function clickFuncition() {
         // Prompt the user to enter their name and store it in the 'name' variable
@@ -21,11 +21,11 @@
         // Check if a name was entered and it's not empty
         if (username == null || username == "") {
           // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
-          document.getElementById("output").innerHTML = "Hello, anonymous! Welcome to our homepage.";
+          document.getElementById("output").innerHTML = "Hello! Welcome to our homepage.";
             
         } else {
           // If a name was entered and it's not empty, display a welcome message with the entered name
-          document.getElementById("output").innerHTML = "Hello! Welcome to our homepage.";   
+          document.getElementById("output").innerHTML = "Hello!" +username +" Welcome to our homepage.";   
         }
       }
         </script>
