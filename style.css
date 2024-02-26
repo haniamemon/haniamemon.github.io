@@ -31,7 +31,7 @@ td, th, table{border:1px solid #150553;}
     /* hide content in dropdown*/ 
     display: none;  background-color: 67, 37, 143; padding: 5px; position: absolute; top: auto; left: auto; text-align: left;
     /* for round*/
-    border-radius: 0.5rem;}
+    border-radius: 0.5rem; }
 
 /* make the style format for the actual dropdown menu items*/
 .dropdown-content a {
@@ -47,8 +47,8 @@ nav{
     background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem; height: 35pt; align-items: center; font-family: 'Serif';
 }
 
-.dropdown button{color: lightblue; font-weight: bold; background: none; border: none;}
+.dropdown button{color: lightblue; font-weight: bold; background: none; border: none; font: 'times new roman';}
 
-.nav-item a{color: lightblue; font: 12px; text-decoration: none; font-weight: bold; margin: 0 50px;}
+.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 50px;}
 
 .drop {background-color: none; font-size: 14px; margin: 0 50px; font: 'times new roman';}
