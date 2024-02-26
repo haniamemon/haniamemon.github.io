@@ -52,7 +52,7 @@ td, th, table{border:1px solid #150553;}
 }
 
 nav{
-    background-color: #AC2581;
+    background-color: rgb(236, 238, 252);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
