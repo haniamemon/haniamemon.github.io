@@ -19,12 +19,13 @@
         var name = prompt("Hi there! What's your name?");
         
         // Check if a name was entered and it's not empty
-        if (name != null && name !== "") {
-            // If a name was entered and it's not empty, display a welcome message with the entered name
-            document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to our homepage.";
+        if (name != null || name !== "") {
+          // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
+          document.getElementById("output").innerHTML = "Hello, anonymous! Welcome to our homepage.";
+            
         } else {
-            // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
-            document.getElementById("output").innerHTML = "Hello, anonymous! Welcome to our homepage.";
+          // If a name was entered and it's not empty, display a welcome message with the entered name
+          document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to our homepage.";   
         }
       }
         </script>
