@@ -18,4 +18,16 @@ function clickFuncition() {
 function changeSize()
 {
     var img = document.getElementById("image"); img.style.height = "600px"; img.style.width = "500px";
+}  
+
+// show dropdown
+function showDropdown(dropdownId) {
+    var dropdown = document.getElementById(dropdownId);
+    dropdown.style.display = 'block';
+}
+
+// hide dropdown
+function hideDropdown(dropdownId) {
+    var dropdown = document.getElementById(dropdownId);
+    dropdown.style.display = 'none';
 }
