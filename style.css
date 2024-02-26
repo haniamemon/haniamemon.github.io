@@ -7,7 +7,9 @@ p{color: rgb(76, 120, 133); font-family: Arial, Helvetica, sans-serif; font-size
 
 blockquote{color: rgb(82, 46, 172); font-family: Arial;}
 
-.button{color: aliceblue;background-color: 82, 46, 172;}
+.button{color: aliceblue;background-color: 82, 46, 172; text-align: center;}
+
+.img{text-align: center;}
 
 a:active {
     color:aqua;
