@@ -38,7 +38,7 @@ td, th, table{border:1px solid #150553;}
     color: lightblue; background-color:rgb(90, 73, 130); display: block; font-family: 'Times New Roman', Times, serif; font-size: 14pt; }
 
 /*make the style format for when you hover over the dropdown content*/
-.dropdown-content a:hover {background: rgb(90, 73, 130); color: lightblue;}
+.dropdown-content a:hover {background: rgb(90, 73, 130); color: lightblue; padding-left: 3px; padding-right: 3x; padding-top: 1px; padding-bottom: 1px;}
 
 /* Show the dropdown menu*/
 .show{display: block;}
