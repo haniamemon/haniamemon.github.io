@@ -17,5 +17,5 @@ function clickFuncition() {
   
 function changeSize()
 {
-    var img = document.getElementById("image"); img.style.height = "600px"; img.style.width = "450px";
+    var img = document.getElementById("image"); img.style.height = "600px"; img.style.width = "500px";
 }
