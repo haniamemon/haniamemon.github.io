@@ -18,16 +18,30 @@
     position: relative;
     display: inline-block;
   }
-  
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="index.html">Homepage</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</div>
 
+//create a div for the dropdown bar itself
+<div id="dropdown">
+  <nav>
+    //first create the homepage section and link it to the homepage aka index html file
+   <div class="nav-item"><a href="index.html">Homepage</a></div>
+   <div class="nav-item dropdown">
+
+    //dropdown item for my resume with 2 pages
+     <button class="drop" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">Resume</button>
+       <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
+       <a href="resume.html">Work</a>
+       <a href="interests.html">School</a>
+     </div>
+   </div>
+   //dropdown item for contact
+   <div class="nav-item dropdown">
+     <button class="dropbtn" onmouseover="toggleDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">Contact</button>    
+     <div class="dropdown-content" id="cvDropdown" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">
+       <a href="contact.html"></a>
+     </div>
+   </div>
+  </nav>
+ </div>
 
   <center> <img src="self image.png" height="400" width ="350" id="image" onclick="changeSize()"> </center>
 
