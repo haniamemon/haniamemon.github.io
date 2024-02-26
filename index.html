@@ -16,16 +16,16 @@
     //make a function for when the user clicks the button
     function clickFuncition() {
         // Prompt the user to enter their name and store it in the 'name' variable
-        var name = prompt("Hi there! What's your name?");
+        var username = prompt("Hi there! What's your name?");
         
         // Check if a name was entered and it's not empty
-        if (name == null || name == "") {
+        if (username == null || username == "") {
           // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
           document.getElementById("output").innerHTML = "Hello, anonymous! Welcome to our homepage.";
             
         } else {
           // If a name was entered and it's not empty, display a welcome message with the entered name
-          document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to our homepage.";   
+          document.getElementById("output").innerHTML = "Hello! Welcome to our homepage.";   
         }
       }
         </script>
