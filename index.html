@@ -7,8 +7,26 @@
   <title>Hania Memon's Website</title>
 </head>
 <body>
-  <button type="button">Click Me!</button>
-  <button type="button" id="myButton">Click Me!</button>
+  <button onclick="clickFunction()">Click Me!</button>
+
+  <script>
+     alert("Hello, World!")
+    //make a function for when the user clicks the button
+    function clickFuncition() {
+        // Prompt the user to enter their name and store it in the 'name' variable
+        var name = prompt("Hi there! What's your name?");
+        
+        // Check if a name was entered and it's not empty
+        if (name != null && name !== "") {
+            // If a name was entered and it's not empty, display a welcome message with the entered name
+            document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome to our homepage.";
+        } else {
+            // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
+            document.getElementById("output").innerHTML = "Hello, anonymous! Welcome to our homepage.";
+        }
+      }
+        </script>
+
 
   <h1>Hania Memon</h1>
   <p>Hello! My name is Hania! <br> I was born in Windsor, Ontario.<br> 
