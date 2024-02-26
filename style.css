@@ -69,21 +69,8 @@ nav{
     font-weight: bold;
 }
 
-.nav-item a{
-    color: lightblue;
-    font: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 50px;
-}
+.nav-item a{color: lightblue; font: 12px; text-decoration: none; font-weight: bold; margin: 0 50px;}
 
-.dropdown-content a:hover {
-    background-color: rgb(90, 73, 130)
-    
-}
+.dropdown-content a:hover {background-color: rgb(90, 73, 130); color: lightblue;}
 
-.drop {
-    font-size: 15px;
-    margin: 0 50px;
-    font-family: 'Serif';
-}
+.drop {font-size: 15px; margin: 0 50px; font-family: 'Serif';}
