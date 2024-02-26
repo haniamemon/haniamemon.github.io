@@ -52,7 +52,7 @@ td, th, table{border:1px solid #150553;}
 }
 
 nav{
-    background-color: rgb(236, 238, 252);
+    background-color: rgb(67, 37, 143);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -65,12 +65,12 @@ nav{
 .dropdown button{
     border: none;
     background: none;
-    color: #F9F0FE;
+    color: lightblue;
     font-weight: bold;
 }
 
 .nav-item a{
-    color: #F9F0FE;
+    color: lightblue;
     font: 12px;
     text-decoration: none;
     font-weight: bold;
@@ -78,7 +78,7 @@ nav{
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(241, 241, 241, 0.8)
+    background-color: rgb(90, 73, 130)
     
 }
 
