@@ -15,8 +15,7 @@ function clickFuncition() {
   }
         } 
   
-function ChangeImageSize(){
-    var img = document.getElementById("image");
-        img.style.height = "600px";
-        img.style.width = "450px";
-        }
+function changeSize()
+{
+    var img = document.getElementById("image"); img.style.height = "600px"; img.style.width = "450px";
+}
