@@ -12,6 +12,27 @@
  <center> <button onclick="clickFuncition()">Click me!</button> </center>
   <p id="namegiven"></p>
 
+  <div id="dropdownbar">
+    <nav>
+     <div class="nav-item"><a href="index.html">Homepage</a></div>
+     <div class="nav-item dropdown">
+  
+      <button class="drop" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">Resume</button>
+         <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
+         <a href="resume.html">Work</a>
+         <a href="interests.html">School</a>
+       </div>
+     </div>
+  
+     <div class="nav-item dropdown">
+       <button class="drop" onmouseover="toggleDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">Contact</button>    
+       <div class="dropdown-content" id="cvDropdown" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">
+         <a href="contact.html"></a>
+       </div>
+     </div>
+    </nav>
+   </div>
+
   <h1>Hania Memon</h1>
 
   <h3>Library Page – South Common Library 07/2022 – Present</h3>
