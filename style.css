@@ -28,16 +28,10 @@ a:visited {
 td, th, table{border:1px solid #150553;}
 
 .dropdown-content { 
-    display: none; /* hide content in dropdown*/
-    background-color: 67, 37, 143;
-    padding: 5px;
-    position: absolute;
-    top: auto;
-    left: auto;
-    text-align: left;
-    border-radius: 0.5rem;
-
-}
+    /* hide content in dropdown*/ 
+    display: none;  background-color: 67, 37, 143; padding: 5px; position: absolute; top: auto; left: auto; text-align: left;
+    /* for round*/
+    border-radius: 0.5rem;}
 
 /* make the style format for the actual dropdown menu items*/
 .dropdown-content a {
@@ -50,7 +44,7 @@ td, th, table{border:1px solid #150553;}
 .show{display: block;}
 
 nav{
-    background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem; height: 30pt;
+    background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem;
     align-items: center;
     font-family: 'Serif';
 }
