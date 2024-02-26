@@ -36,7 +36,7 @@ td, th, table{border:1px solid #150553;}
 
 /* make the style format for the actual dropdown menu items*/
 .dropdown-content a {
-    color: lightblue; background-color:rgb(90, 73, 130); display: block; font-family: 'Times New Roman', Times, serif; font-size: 14pt; }
+    color: lightblue; background-color:rgb(90, 73, 130); display: block; font: 'Times New Roman'; font-size: 14pt; }
 
 /*make the style format for when you hover over the dropdown content*/
 .dropdown-content a:hover {background: rgb(98, 83, 134); color: rgb(167, 193, 201);}
