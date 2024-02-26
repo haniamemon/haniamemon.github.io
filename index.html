@@ -6,29 +6,29 @@
 
   <title>Hania Memon's Website</title>
 </head>
+
 <body>
-  <p>Click the button below to enter your name:</p>
-  <button onclick="clickFuncition()">Enter Name</button>
-  <p id="output"></p>
+  <button onclick="clickFuncition()">Click me!</button>
+  <p id="namegiven"></p>
 
   <script>
      alert("Hello!")
     //make a function for when the user clicks the button
     function clickFuncition() {
-        // Prompt the user to enter their name and store it in the 'name' variable
+        // the prompt () function takes input, which is stored in the username var
         var username = prompt("Hi there! What's your name?");
         
-        // Check if a name was entered and it's not empty
+        // use an if else statement to see what the input was, determine output
         if (username == null || username == "") {
-          // If no name was entered (or the user clicked cancel) or the name is empty, display a default welcome message for an anonymous user
-          document.getElementById("output").innerHTML = "Hello! Welcome to our homepage.";
+         // for no input/error, no name is given
+          document.getElementById("namegiven").innerHTML = "Hello! Nice to meet you!";
             
         } else {
-          // If a name was entered and it's not empty, display a welcome message with the entered name
-          document.getElementById("output").innerHTML = "Hello " +username +"! Welcome to our homepage.";   
+          // for name given, use in output
+          document.getElementById("namegiven").innerHTML = "Hello " +username +"! Nice to meet you!";   
         }
       }
-        </script>
+    </script>
 
 
   <h1>Hania Memon</h1>
