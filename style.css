@@ -44,9 +44,7 @@ td, th, table{border:1px solid #150553;}
 .show{display: block;}
 
 nav{
-    background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem;
-    align-items: center;
-    font-family: 'Serif';
+    background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem; height: 35pt; align-items: center; font-family: 'Serif';
 }
 
 .dropdown button{color: lightblue; font-weight: bold; background: none; border: none;}
