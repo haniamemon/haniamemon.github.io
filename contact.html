@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css"> 
+  <script src="main.js" defer></script>
+
+  <title>Hania Memon's Website</title>
+</head>
+
+<body>
+ <center> <button onclick="clickFuncition()">Click me!</button> </center>
+  <p id="namegiven"></p>
+
+  <h1>Hania Memon</h1>
+
+  <div id="dropdownbar">
+    <nav>
+     <div class="nav-item"><a href="index.html">Homepage</a></div>
+     <div class="nav-item dropdown">
+  
+      <button class="drop" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">Resume</button>
+         <div class="dropdown-content" id="aboutDropdown" onmouseover="showDropdown('aboutDropdown')" onmouseout="hideDropdown('aboutDropdown')">
+         <a href="resume.html">Work</a>
+         <a href="interests.html">School</a>
+       </div>
+     </div>
+  
+     <div class="nav-item dropdown">
+       <button class="drop" onmouseover="toggleDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">Contact</button>    
+       <div class="dropdown-content" id="cvDropdown" onmouseover="showDropdown('cvDropdown')" onmouseout="hideDropdown('cvDropdown')">
+         <a href="contact.html"></a>
+       </div>
+     </div>
+    </nav>
+   </div>
+
+   <h2> Contact Me</h2>
+   <p>    Email:  <a href="hania.memon@torontomu.ca">hania.memon@torontomu.ca</a> <br>
+Phone: 905-555-5555 </p>
+  
