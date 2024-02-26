@@ -50,6 +50,6 @@ nav{
 
 .dropdown button{color: lightblue; font-weight: bold; background: none; border: none; font: 'times new roman';}
 
-.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 50px; font: 'times new roman'}
+.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 50px; font: 'times new roman'}
 
-.drop {background-color: none; font-size: 14px; margin: 0 50px; font: 'times new roman';}
+.drop {background-color: none; font-size: 14px; margin: 50px; font: 'times new roman';}
