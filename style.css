@@ -29,7 +29,7 @@ td, th, table{border:1px solid #150553;}
 
 .dropdown-content { 
     /* hide content in dropdown*/ 
-    display: none;  background-color: 67, 37, 143; padding: 5px; position: absolute; top: auto; left: auto; text-align: left;
+    display: none;  background-color: 67, 37, 143; padding: 3px; position: absolute; top: auto; left: auto; text-align: left;
     padding-left: 3px; padding-right: 3x; padding-top: 1px; padding-bottom: 1px;
     /* for round*/
     border-radius: 0.5rem; }
