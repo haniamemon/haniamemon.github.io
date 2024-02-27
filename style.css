@@ -49,8 +49,10 @@ nav{
 }
 
 /* to format the actual resume button that has the dropdown items*/
-.dropdown button{color: lightblue; font-weight: bold; background: none; border: none; font: 'times new roman';}
+.dropdown button{color: lightblue; font-weight: bold; background: none; border: none;}
+/*margin sets distance between nav bar items and the dropdown item, font family maintains font consistency*/
+.drop { font-size: 16px; margin: 0 75px; font-family: 'serif';}
 
-.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 50px; font: 'times new roman'}
 
-.drop { font-size: 15px; margin: 0 50px; font-family: 'serif';}
+.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 75px; }
+
