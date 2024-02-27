@@ -44,15 +44,16 @@ td, th, table{border:1px solid #150553;}
 /* Show the dropdown menu*/
 .show{display: block;}
 
-nav{
-    background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem; height: 35pt; align-items: center; font-family: 'Serif';
-}
+/* to style nav bar*/
+nav{ background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify-content: center; border-radius: 1rem; height: 35pt; align-items: center; }
 
 /* to format the actual resume button that has the dropdown items*/
 .dropdown button{color: lightblue; font-weight: bold; background: none; border: none;}
 /*margin sets distance between nav bar items and the dropdown item, font family maintains font consistency*/
 .drop { font-size: 16px; margin: 0 75px; font-family: 'serif';}
 
-
-.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 75px; }
+/*This is for the other navigation item (aka not the resume dropdown item)
+    Just mamking sure the font and style is consistent with the dropdown item.
+    AlSO set tect decor to none to get rid of underline*/
+.nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 75px; font-family: 'Serif';}
 
