@@ -38,7 +38,7 @@ Phone: 905-555-5555 </p>
 
     <h2> Please give me some feedback!:</h2>
     <form> 
-      <p>What is your name? <br>
+      <p><label>What is your name? </label><br>
         <input id="Name" type="Answer"></p>
       
      <p> 
@@ -63,7 +63,7 @@ Phone: 905-555-5555 </p>
   </p>
 
   <p>
-    <label for="colourinc">Do you like to see colour included in a professional portfolio?</label>
+    <label>Do you like to see colour included in a professional portfolio?</label>
         <select id="colour_pick">
             <option value="Yes">Yes</option>
             <option value="No">No</option>
@@ -76,6 +76,10 @@ Phone: 905-555-5555 </p>
     <input type="color" name="colour" value="#ff0000" id="colorpicker">
   </p>
 
+  <p> <label>How would you rate the colours on my website in terms of professionalism? </label>
+  <br>1 <input type="range" id="rating" name="rating" min="0" max="10" />
+  <label for="rating"></label>10
+  </p>
 
   <p>
     <label for="Message">Please give me any other design feedback! It is greatly appreciated!</label>
