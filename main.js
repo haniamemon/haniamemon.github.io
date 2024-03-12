@@ -31,3 +31,26 @@ function hideDropdown(dropdownId) {
     var dropdown = document.getElementById(dropdownId);
     dropdown.style.display = 'none';
 }
+
+//function to submit the feedback form
+function submitForm() {
+  //get the different data types that have been defined in the contact.html file
+  var name = document.getElementById("name").value;
+  var element = document.getElementById("element").value;
+  var headshot = document.getElementById("headshot").value;
+  var colour = document.getElementById("colour").value;
+  var colourpick = document.getElementById("colourpick").value;
+  var message = document.getElementById("message").value;
+  var rating = document.getElementById("rating").value;
+}
+
+var gender = document.querySelector('input[name="headshot"]:checked').value;
+
+//checkbox items into array, get all checked boxes
+var element = [];
+    var elementCheckboxes = document.getElementsByName("element");
+    for (var i = 0; i < elementCheckboxes.length; i++) {
+        if (elementCheckboxes[i].checked) {
+            element.push(elementCheckboxes[i].value);
+        }
+    }
