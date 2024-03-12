@@ -60,4 +60,4 @@ var element = [];
     var col = localStorage.setItem("colour", colour);
     var colpick = localStorage.setItem("phone_type", colourpick);
     var msg = localStorage.setItem("message", msg);
-    var rting = localStorage.setItem("rating", rating)
+    var rting = localStorage.setItem("rating", rating);
