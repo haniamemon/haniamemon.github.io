@@ -51,6 +51,13 @@ var element = [];
     var elementCheckboxes = document.getElementsByName("element");
     for (var i = 0; i < elementCheckboxes.length; i++) {
         if (elementCheckboxes[i].checked) {
-            element.push(elementCheckboxes[i].value);
-        }
+            element.push(elementCheckboxes[i].value);}
     }
+
+    var namebox = localStorage.setItem("name", name);
+    var elemnt = localStorage.setItem("element", element);
+    var head = localStorage.setItem("headshot", headshot);
+    var col = localStorage.setItem("colour", colour);
+    var colpick = localStorage.setItem("phone_type", colourpick);
+    var msg = localStorage.setItem("message", msg);
+    var rting = localStorage.setItem("rating", rating)
