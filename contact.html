@@ -38,16 +38,19 @@ Phone: 905-555-5555 </p>
 
     <h2> Please give me some feedback!:</h2>
     <form> 
+      <p>What is your name? <br>
+        <input id="Name" type="Answer"></p>
+      
      <p> 
      <label>What is crucial to add in a professional portfolio in your opinion?</label><br>
      <input type="checkbox" name="element" value="Education">
-     <label for="industry">Technology</label><br>
+     <label for="industry">Education</label><br>
      <input type="checkbox" name="element" value="Work Experience">
-     <label for="industry">Finance</label><br>
+     <label for="industry">Work Experience</label><br>
      <input type="checkbox" name="element" value="Extracurriculars">
-     <label for="industry">Healthcare</label><br>
+     <label for="industry">Extracurriculars</label><br>
      <input type="checkbox" name="element" value="Hobbies">
-     <label for="industry">Marketing</label><br>
+     <label for="industry">Hobbies</label><br>
      <input type="checkbox" name="element" value="Other">
      <label for="industry">Other</label><br>
     
@@ -55,17 +58,33 @@ Phone: 905-555-5555 </p>
 
   <p>
     <label> Do you think a candidate's headshot is an important addition to their professional portfolio?</label> <br>
-    <input type="radio" name="headshot" value="Yes"> <br>
-    <input type="radio" name="headshot" value="No"><br>
+    Yes <input type="radio" name="headshot" value="Yes"> <br>
+    No <input type="radio" name="headshot" value="No"><br>
+  </p>
+
+  <p>
+    <label for="colourinc">Do you like to see colour included in a professional portfolio?</label>
+        <select id="colour_pick">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value ="Sometimes">Sometimes</option>
+        </select>
   </p>
 
   <p>
     <label> What colour do you identify with professionalism</label>
-    <input type="color" name="favcolor" value="#ff0000" id="colorpicker">
+    <input type="color" name="colour" value="#ff0000" id="colorpicker">
   </p>
+
 
   <p>
     <label for="Message">Please give me any other design feedback! It is greatly appreciated!</label>
     <textarea id="message" name="message" rows="10" cols="100" placeholder="Enter your message"></textarea>
 </p>
+
+<p>
+  <button type="button" value="submit" onclick="submitForm()">Submit</button>
+  <input type="reset">
+</p>
+
 </form>
