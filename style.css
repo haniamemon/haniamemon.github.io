@@ -57,3 +57,6 @@ nav{ background-color: rgb(67, 37, 143); display: flex; flex-wrap: wrap; justify
     AlSO set tect decor to none to get rid of underline*/
 .nav-item a{color: lightblue; font: 14px; text-decoration: none; font-weight: bold; margin: 0 75px; font-family: 'Serif';}
 
+label{color: #150553; font-weight: bold; font-family: serif;}
+textarea{border-radius: 0.5rem; border-color: #150553; background-color: rgb(233, 246, 249); color: #150553;}
+.range{color:#150553}
