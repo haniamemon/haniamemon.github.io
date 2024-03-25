@@ -61,3 +61,8 @@ var element = [];
     var colpick = localStorage.setItem("phone_type", colourpick);
     var msg = localStorage.setItem("message", msg);
     var rting = localStorage.setItem("rating", rating);
+
+  function changeColor() {
+      document.body.style.backgroundColor = "#000";
+      document.body.style.color = "#fff";
+  }
